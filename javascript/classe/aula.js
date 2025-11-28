@@ -40,7 +40,7 @@ class Fruta {
 fruta1 = new Fruta('banana', 4);
 fruta2 = new Fruta('Maça', 7);
 
-// fruta1.descarcar();
+fruta1.descarcar();
 
 function compararQtdFrutas(fruta1,fruta2){
     if(fruta1.quantidade > fruta2.quantidade){
